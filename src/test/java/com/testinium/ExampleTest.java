@@ -5,51 +5,67 @@ import org.openqa.selenium.By;
 
 public class ExampleTest extends BaseTest {
 
-Steps steps = new Steps();
+    Steps steps = new Steps();
 
-@Test
-public void exampleTest() {
-    steps.goToPage("https://www.amazon.com.tr/");
-    driver.findElement(By.xpath("//a[1]")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-logo-sprites")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-global-location-popover-link")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.xpath("//a[1]")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-logo-sprites")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-global-location-popover-link")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.xpath("//a[1]")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-logo-sprites")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-global-location-popover-link")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.xpath("//a[1]")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-logo-sprites")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-global-location-popover-link")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.xpath("//a[1]")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-logo-sprites")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.id("nav-global-location-popover-link")).click();
-    steps.waitSeconds(2);
-    driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
-    steps.waitSeconds(2);
+
+    @Test
+    public void vatanbilgisayar() {
+        steps.goToPage("https://www.vatanbilgisayar.com/");
+    }
+
+    @Test
+    public void amazon() {
+        steps.goToPage("https://www.amazon.com.tr/");
+    }
+
+    @Test
+    public void trendyol() {
+        steps.goToPage("https://www.trendyol.com/");
+    }
+
+    @Test
+    public void exampleTest() {
+        steps.goToPage("https://www.amazon.com.tr/");
+        driver.findElement(By.xpath("//a[1]")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-logo-sprites")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-global-location-popover-link")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.xpath("//a[1]")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-logo-sprites")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-global-location-popover-link")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.xpath("//a[1]")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-logo-sprites")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-global-location-popover-link")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.xpath("//a[1]")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-logo-sprites")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-global-location-popover-link")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.xpath("//a[1]")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-logo-sprites")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.id("nav-global-location-popover-link")).click();
+        steps.waitSeconds(2);
+        driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
+        steps.waitSeconds(2);
     }
 
     @Test
@@ -321,6 +337,7 @@ public void exampleTest() {
         driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
         steps.waitSeconds(2);
     }
+
     @Test
     public void basicTest07() {
         steps.goToPage("https://www.amazon.com.tr/");
@@ -500,6 +517,7 @@ public void exampleTest() {
         driver.findElement(By.cssSelector(".a-button-close.a-declarative")).click();
         steps.waitSeconds(2);
     }
+
     @Test
     public void failTest() {
         steps.goToPage("https://www.amazon.com.tr/");
